@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/css/style.css" rel="stylesheet"/>
+    <title>Formulário de Cadastro</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form-image">
+            <img src="assets/img/1517090-208cb8.svg" alt="">
+        </div>
+        <div class="form">
+            <form action="#">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Cadastre o novo Mascote</h1>
+                    </div>
+                    <div class="login-button">
+                        <button><a href="#"><b>Entrar</b></a></button>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="nickname">Nome do Mascote</label>
+                        <input id="nickname" type="text" name="nickname" placeholder="Digite o nome do novo mascote" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="breed">Raça</label>
+                        <input id="breed" type="text" name="breed" placeholder="Digite a raça do mascote" required>
+                    </div>
+                    
+                </div>
+
+                <div class="gender-inputs">
+                    <div class="gender-title">
+                        <h6>Gênero</h6>
+                    </div>
+
+                    <div class="gender-group">
+                        <div class="gender-input">
+                            <input type="radio" id="female" name="gender">
+                            <label for="female">Fêmea</label>
+                        </div>
+                        
+                        <div class="gender-input">
+                            <input type="radio" id="male" name="gender">
+                            <label for="male">Macho</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="gender-inputs">
+                    <div class="gender-title">
+                        <h6>Tipo</h6>
+                    </div>
+
+                    <div class="gender-group">
+                        <div class="gender-input">
+                            <input type="radio" id="dog" name="gender">
+                            <label for="dog">Canino</label>
+                        </div>
+                        <div class="gender-input">
+                            <input type="radio" id="cat" name="gender">
+                            <label for="cat">Felino</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="continue-button">
+                    <button><a href="#">Continuar</a></button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
